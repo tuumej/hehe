@@ -29,6 +29,9 @@ private BottomNavigationView bottomNavigationView;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        xxxxx
+
         viewPager = findViewById(R.id.view_pager);
         bottomNavigationView = findViewById(R.id.bottom_navigation);
 
