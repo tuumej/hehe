@@ -2,15 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/menu_home"
-        android:title="Home"
+        android:title="홈"
         android:icon="@drawable/ic_hm_24"/>
 
     <item android:id="@+id/menu_vs"
-        android:title="VS"
+        android:title="랭킹"
         android:icon="@drawable/ic_vs"/>
 
     <item android:id="@+id/menu_set"
-        android:title="Setting"
+        android:title="마이페이지"
         android:icon="@drawable/ic_set"/>
 
 
