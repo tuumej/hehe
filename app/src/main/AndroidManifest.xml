@@ -16,6 +16,13 @@
         <activity android:name=".SettingPage.BellActivity" />
         <activity android:name=".SettingPage.AddBFActivity" />
         <activity android:name=".SettingPage.SetIdActivity" />
+        <activity android:name=".InitActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
