@@ -35,7 +35,7 @@
         android:text="비밀번호 재설정"
         android:textColor="@color/black"
         android:textSize="20sp"
-        android:textStyle="normal" />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
@@ -92,4 +92,32 @@
         android:ems="10"
         android:hint="비밀번호 재입력"
         android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="302dp"
+        android:layout_marginTop="199dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/round_grey"
+        android:textSize="10dp"
+        android:text="인증번호 전송" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/round_grey"
+        android:text="확인"
+        android:textSize="10dp" />
 </RelativeLayout>
