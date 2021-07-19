@@ -17,7 +17,7 @@
         <activity android:name=".SettingPage.BellActivity" />
         <activity android:name=".SettingPage.AddBFActivity" />
         <activity android:name=".SettingPage.SetIdActivity" />
-        <activity android:name=".InitActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
