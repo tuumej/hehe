@@ -7,11 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.hehe.FindPasswdActivity;
 import com.example.hehe.R;
 
 public class CheckPasswdActivity extends AppCompatActivity {
 
     Button btn_check;
+    Button find_btn;
 
 
     @Override
@@ -27,6 +29,17 @@ public class CheckPasswdActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        find_btn = findViewById(R.id.button2);
+        find_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), FindPasswdActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
 
     }
 }
