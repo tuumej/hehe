@@ -20,20 +20,9 @@
         android:text="확인"
         android:textColor="@color/black" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="160dp"
-        android:backgroundTint="@color/white"
-        android:text="비밀번호를 잊으셨나요 ?"
-        android:textColor="@color/black"
-        android:textSize="10sp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress5"
+        android:id="@+id/editTextTextPassword3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView3"
@@ -43,11 +32,12 @@
         android:layout_marginStart="34dp"
         android:layout_marginTop="115.3dp"
         android:layout_marginEnd="34dp"
+        android:hint="비밀번호 재입력"
         android:ems="10"
-        android:inputType="textEmailAddress" />
+        android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress4"
+        android:id="@+id/editTextTextPassword2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView3"
@@ -56,9 +46,9 @@
         android:layout_marginStart="34dp"
         android:layout_marginTop="63dp"
         android:layout_marginEnd="34dp"
-        android:autofillHints="이메일"
+        android:hint="새로운 비밀번호 (8-12자리/숫자, 특수문자 조합)"
         android:ems="10"
-        android:inputType="textEmailAddress" />
+        android:inputType="textPassword" />
 
     <TextView
         android:id="@+id/textView3"
