@@ -53,5 +53,4 @@
         app:fabSize="normal"
         app:srcCompat="@android:drawable/ic_input_add" />
 
-
 </RelativeLayout>
