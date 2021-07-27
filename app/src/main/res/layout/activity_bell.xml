@@ -6,10 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".SettingPage.BellActivity">
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="알림 소리"/>
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="357dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="23dp"
+        android:text="알림 설정" />
 
 </RelativeLayout>
