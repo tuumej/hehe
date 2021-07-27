@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_voice">
+        <item>띵</item>
+        <item>띵띵</item>
+        <item>띵띵띵</item>
+        <item>띵띵띵띵</item>
+    </string-array>
+</resources>
