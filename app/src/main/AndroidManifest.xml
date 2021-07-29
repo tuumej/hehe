@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hehe">
-        <activity android:name=".FindPasswdActivity"></activity>
+        <activity android:name=".Signup.SignUpActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".FindPasswdActivity" />
         <activity android:name=".LogFireActivity" />
         <activity android:name=".SettingPage.CheckPasswdActivity" />
         <activity android:name=".SettingPage.ChangePasswdActivity" />
@@ -18,7 +20,7 @@
         <activity android:name=".SettingPage.BellActivity" />
         <activity android:name=".SettingPage.AddBFActivity" />
         <activity android:name=".SettingPage.SetIdActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Signup.SignInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
