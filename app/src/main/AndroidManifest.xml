@@ -10,7 +10,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hehe">
-        <user-permission android:name="android.permission.VIBRATE"/>
         <activity android:name=".FindPasswdActivity"></activity>
         <activity android:name=".LogFireActivity" />
         <activity android:name=".SettingPage.CheckPasswdActivity" />
