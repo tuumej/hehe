@@ -22,37 +22,39 @@
     <EditText
         android:id="@+id/editTextTextEmailAddress3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="34dp"
         android:layout_marginTop="293dp"
         android:layout_marginEnd="33dp"
+        android:background="@drawable/round_white"
         android:ems="10"
-        android:hint="아이디"
-        android:textColor="#a6a6a6"
-        android:lineSpacingExtra="4.5sp"
         android:gravity="center_vertical"
-        android:textSize="12.5sp"
-        android:inputType="textEmailAddress" />
+        android:hint="   아이디"
+        android:inputType="textEmailAddress"
+        android:lineSpacingExtra="4.5sp"
+        android:textColor="#a6a6a6"
+        android:textSize="12.5sp" />
 
     <EditText
         android:id="@+id/editTextTextPassword6"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#a6a6a6"
-        android:lineSpacingExtra="4.5sp"
+        android:layout_height="43dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="345.2dp"
+        android:layout_marginTop="341dp"
         android:layout_marginEnd="34dp"
+        android:background="@drawable/round_white"
         android:ems="10"
-        android:textSize="12.5sp"
-        android:hint="비밀번호(8자리이상/영어,숫자,특수문자)"
-        android:inputType="textPassword" />
+        android:hint="   비밀번호(8자리이상/영어,숫자,특수문자)"
+        android:inputType="textPassword"
+        android:lineSpacingExtra="4.5sp"
+        android:textColor="#a6a6a6"
+        android:textSize="12.5sp" />
     <Button
         android:id="@+id/button11"
         android:layout_width="wrap_content"
@@ -64,6 +66,7 @@
         android:layout_marginTop="465dp"
         android:layout_marginEnd="34dp"
         android:background="@drawable/round"
+        android:textStyle="bold"
         android:layout_marginBottom="356dp"
         android:text="로그인" />
 
@@ -74,9 +77,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="132.5dp"
+        android:layout_marginStart="99dp"
         android:layout_marginTop="535dp"
-        android:layout_marginEnd="196.5dp"
+        android:layout_marginEnd="230dp"
         android:layout_marginBottom="313dp"
         android:background="#00ff0000"
         android:gravity="center_horizontal"
@@ -84,7 +87,7 @@
         android:lineSpacingExtra="20.5sp"
         android:text="회원가입"
         android:textColor="#979797"
-        android:textSize="8.5sp"
+        android:textSize="13sp"
         android:textStyle="normal" />
 
     <Button
@@ -94,9 +97,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="178.5dp"
+        android:layout_marginStart="206dp"
         android:layout_marginTop="535dp"
-        android:layout_marginEnd="132.5dp"
+        android:layout_marginEnd="105dp"
         android:layout_marginBottom="315dp"
         android:background="#00ff0000"
         android:gravity="center_horizontal"
@@ -104,7 +107,7 @@
         android:lineSpacingExtra="20.5sp"
         android:text="비밀번호 찾기"
         android:textColor="#979797"
-        android:textSize="8.5sp"
+        android:textSize="13sp"
         android:textStyle="normal" />
 
     <CheckBox
@@ -114,11 +117,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="390dp"
-        android:textSize="10sp"
+        android:layout_marginTop="396dp"
+        android:text="로그인 상태 유지"
         android:textColor="#3c3c3c"
-        android:text="로그인 상태 유지" />
-
+        android:textSize="10sp" />
 
 
 </RelativeLayout>
