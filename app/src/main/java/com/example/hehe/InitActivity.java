@@ -59,14 +59,14 @@ public class InitActivity extends AppCompatActivity implements View.OnClickListe
 
     private void toggleFab(){
         if (isFabOpen) {
-            fab_main.setImageResource(R.drawable.ic_hm_24);
+            fab_main.setImageResource(R.drawable.plus);
             fab_sub1.startAnimation(fab_close);
             fab_sub2.startAnimation(fab_close);
             fab_sub1.setClickable(false);
             fab_sub2.setClickable(false);
             isFabOpen = false;
         } else {
-            fab_main.setImageResource(R.drawable.ic_hm_24);
+            fab_main.setImageResource(R.drawable.plus);
             fab_sub1.startAnimation(fab_open);
             fab_sub2.startAnimation(fab_open);
             fab_sub1.setClickable(true);
