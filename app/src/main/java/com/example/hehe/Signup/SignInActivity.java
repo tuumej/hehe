@@ -15,6 +15,7 @@ public class SignInActivity extends AppCompatActivity {
 
     Button sign_btn;
     Button fi_btn;
+    Button set_main_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,15 @@ public class SignInActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), FindPasswdActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        set_main_btn = findViewById(R.id.button11);
+        set_main_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),InitActivity.class);
                 startActivity(intent);
             }
         });
