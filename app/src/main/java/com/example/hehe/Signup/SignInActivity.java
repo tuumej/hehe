@@ -15,7 +15,6 @@ public class SignInActivity extends AppCompatActivity {
 
     Button sign_btn;
     Button fi_btn;
-    Button inti_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
