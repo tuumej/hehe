@@ -10,10 +10,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hehe">
-        <activity android:name=".Signup.SignUpActivity"></activity>
-        <activity android:name=".Signup.SignInActivity" />
+
+        <activity android:name=".SplashActivity"
+            android:theme="@style/SplashTheme"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Signup.SignUpActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".InitActivity"/>
+        <activity android:name=".InitActivity" />
         <activity android:name=".FindPasswdActivity" />
         <activity android:name=".LogFireActivity" />
         <activity android:name=".SettingPage.CheckPasswdActivity" />
@@ -22,13 +33,12 @@
         <activity android:name=".SettingPage.BellActivity" />
         <activity android:name=".SettingPage.AddBFActivity" />
         <activity android:name=".SettingPage.SetIdActivity" />
-        <activity android:name=".MainActivity">
         <activity android:name=".Signup.SignInActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
     </application>
 
