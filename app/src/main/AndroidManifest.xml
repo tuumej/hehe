@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hehe">
         <activity android:name=".Signup.SignUpActivity"></activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".Signup.SignInActivity" />
         <activity android:name=".FindPasswdActivity" />
         <activity android:name=".LogFireActivity" />
         <activity android:name=".SettingPage.CheckPasswdActivity" />
@@ -20,7 +20,7 @@
         <activity android:name=".SettingPage.BellActivity" />
         <activity android:name=".SettingPage.AddBFActivity" />
         <activity android:name=".SettingPage.SetIdActivity" />
-        <activity android:name=".Signup.SignInActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
