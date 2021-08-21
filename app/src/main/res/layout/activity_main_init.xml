@@ -15,7 +15,7 @@
         android:layout_marginBottom="15dp"
         android:layout_marginRight="20dp"
         android:backgroundTint="#ffffff"
-        android:src="@drawable/ic_hm_24"
+        android:src="@drawable/pen"
         android:visibility="invisible"
         app:borderWidth="0dp"
         app:fabSize="normal"
@@ -32,7 +32,7 @@
         android:layout_marginRight="20dp"
         android:backgroundTint="#ffffff"
         android:clickable="true"
-        android:src="@drawable/ic_vs"
+        android:src="@drawable/trash"
         android:visibility="invisible"
         app:borderWidth="0dp"
         app:fabSize="normal"
@@ -46,11 +46,80 @@
         android:layout_alignParentRight="true"
         android:layout_marginBottom="20dp"
         android:layout_marginRight="20dp"
-        android:backgroundTint="#ffffff"
+        android:backgroundTint="#c1f085"
         android:clickable="true"
-        android:src="@drawable/ic_vs"
+        android:src="@drawable/plus"
         app:borderWidth="0dp"
         app:fabSize="normal"
         app:srcCompat="@android:drawable/ic_input_add" />
+
+    <LinearLayout
+        android:layout_width="71dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="322dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="67dp"
+            android:layout_height="60dp"
+            android:src="@drawable/loco"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="249dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="74dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:text="닉네임"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="22dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="34dp"
+            android:layout_height="35dp"
+            android:src="@drawable/alarm"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="151dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:text="Button" />
+    </LinearLayout>
 
 </RelativeLayout>
