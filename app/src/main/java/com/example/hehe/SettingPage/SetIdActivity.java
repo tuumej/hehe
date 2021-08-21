@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.example.hehe.MainActivity;
 import com.example.hehe.R;
+import com.example.hehe.Signup.SignInActivity;
 
 public class SetIdActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -51,7 +52,7 @@ public class SetIdActivity extends AppCompatActivity implements View.OnClickList
                         .setNeutralButton("탈퇴", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                Intent intent1 = new Intent(getApplicationContext(), MainActivity.class);  //탈퇴시 현재는 MainActivity로 돌아가게 설정했으나 구현완료시 login화면으로 변경 필요
+                                Intent intent1 = new Intent(getApplicationContext(), SignInActivity.class);  //탈퇴시 현재는 SignActivity로 돌아가게 설정했으나 구현완료시 login화면으로 변경 필요
                                 startActivity(intent1);
 
                             }
