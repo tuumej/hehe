@@ -1,9 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
 
-    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowBackground">@drawable/splash12</item>
-    </style>
 
     <style name="Theme.Hehe" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
