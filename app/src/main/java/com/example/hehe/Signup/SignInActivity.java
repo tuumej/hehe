@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.example.hehe.FindPasswdActivity;
 import com.example.hehe.InitActivity;
+import com.example.hehe.LogFireActivity;
 import com.example.hehe.R;
 
 public class SignInActivity extends AppCompatActivity {
@@ -22,11 +23,11 @@ public class SignInActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
 
-        sign_btn = findViewById(R.id.button12);
+        sign_btn = findViewById(R.id.button20);
         sign_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),SignUpActivity.class);
+                Intent intent = new Intent(getApplicationContext(), SignUpActivity.class);
                 startActivity(intent);
             }
         });
