@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.hehe.R;
+import com.example.hehe.SettingPage.LogoutActivity;
 
 public class SignUpActivity extends AppCompatActivity {
 
@@ -17,6 +18,8 @@ public class SignUpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
+        Intent intent = new Intent(this, LogoutActivity.class);
+        startActivity(intent);
 
         login_btn = findViewById(R.id.button15);
         login_btn.setOnClickListener(new View.OnClickListener() {
