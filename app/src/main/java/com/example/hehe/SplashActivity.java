@@ -30,7 +30,7 @@ private void startLoading(){
             startActivity(new Intent(getApplicationContext(), SignInActivity.class));
             finish();
         }
-    }, 2000);
+    }, 5000);
 }
 
 }
