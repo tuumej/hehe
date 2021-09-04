@@ -7,6 +7,60 @@
 
 
     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="142dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="86dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:hint="4. 새로운 가계부를 생성하자~" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="142dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="214dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:hint="3. 새로운 가계부를 생성하자~" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="142dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="341dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:hint="2. 새로운 가계부를 생성하자~" />
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="91dp"
         android:layout_height="108dp"
         android:layout_alignParentStart="true"
@@ -93,8 +147,8 @@
         app:srcCompat="@android:drawable/ic_input_add" />
 
     <LinearLayout
-        android:layout_width="215dp"
-        android:layout_height="57dp"
+        android:layout_width="113dp"
+        android:layout_height="55dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -104,11 +158,29 @@
 
         <TextView
             android:id="@+id/textView9"
-            android:layout_width="match_parent"
+            android:layout_width="98dp"
             android:layout_height="39dp"
             android:text="닉네임"
             android:textSize="24sp"
             android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="142dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="468dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:hint="1. 새로운 가계부를 생성하자~" />
     </LinearLayout>
 
 
