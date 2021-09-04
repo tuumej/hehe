@@ -41,8 +41,8 @@ public class HomeFragment extends Fragment {
         tabLayout = mView.findViewById(R.id.tab_layout_home);
         viewPager = mView.findViewById(R.id.viewpager_home);
 
-        tabLayout.setTabTextColors(Color.rgb(186,186,186), Color.rgb(0,0,0)); // 탭 선택시 텍스트 컬러 변경
-        tabLayout.setSelectedTabIndicatorColor(Color.rgb(0,0,0)); // 탭 선택시 밑줄 색 변경
+        tabLayout.setTabTextColors(Color.rgb(0,0,0), Color.rgb(0,0,0)); // 탭 선택시 텍스트 컬러 변경
+        tabLayout.setSelectedTabIndicatorColor(Color.rgb(193,240,133)); // 탭 선택시 밑줄 색 변경
 
 
         HomeViewPagerAdapter adapter = new HomeViewPagerAdapter(getChildFragmentManager(), FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
