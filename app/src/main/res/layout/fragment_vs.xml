@@ -16,7 +16,6 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="95.1dp"
         app:tabBackground="@drawable/back_tab_color_vs"
-
         />
 
     <androidx.viewpager.widget.ViewPager
