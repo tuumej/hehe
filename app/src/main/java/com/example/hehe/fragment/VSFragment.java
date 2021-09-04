@@ -43,8 +43,8 @@ public class VSFragment extends Fragment {
         VSViewPagerAdapter adapter = new VSViewPagerAdapter(getChildFragmentManager(), FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         viewPager.setAdapter(adapter);
 
-        tabLayout.setTabTextColors(Color.rgb(186,186,186), Color.rgb(255,255,255)); // 탭 선택시 텍스트 컬러 변경
-        tabLayout.setSelectedTabIndicatorColor(Color.rgb(0,0,0)); // 탭 선택시 밑줄 색 변경
+        tabLayout.setTabTextColors(Color.rgb(0,0,0), Color.rgb(0,0,0)); // 탭 선택시 텍스트 컬러 변경
+        tabLayout.setSelectedTabIndicatorColor(Color.rgb(193,240,133)); // 탭 선택시 밑줄 색 변경
 
         tabLayout.setupWithViewPager(viewPager);
 
