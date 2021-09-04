@@ -10,15 +10,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-<<<<<<< HEAD
         android:theme="@style/Theme.Hehe"
         android:usesCleartextTraffic="true">
-
         <activity android:name=".Signup.SignInActivity"/>
-=======
-        android:theme="@style/Theme.Hehe">
-        <activity android:name=".Signup.SignInActivity" />
->>>>>>> fc3056aa5196f708214241a2d66fdec147605c05
         <activity android:name=".MainActivity" />
         <activity android:name=".InitActivity" />
         <activity android:name=".FindPasswdActivity" />
