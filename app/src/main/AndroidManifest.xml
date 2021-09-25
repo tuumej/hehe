@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.hehe">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,9 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hehe"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Signup.SignInActivity"/>
+        <activity android:name=".SplashActivity"></activity>
+        <activity android:name=".Signup.SignInActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".InitActivity" />
         <activity android:name=".FindPasswdActivity" />
         <activity android:name=".LogFireActivity" />
         <activity android:name=".SettingPage.CheckPasswdActivity" />
@@ -24,7 +25,7 @@
         <activity android:name=".SettingPage.AddBFActivity" />
         <activity android:name=".SettingPage.SetIdActivity" />
         <activity android:name=".Signup.SignUpActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".Sum.SumActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
