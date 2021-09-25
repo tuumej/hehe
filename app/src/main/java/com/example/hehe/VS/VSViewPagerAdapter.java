@@ -6,10 +6,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import com.example.hehe.fragment.HomeFragment;
-import com.example.hehe.fragment.SetFragment;
-import com.example.hehe.fragment.VSFragment;
-
 public class VSViewPagerAdapter extends FragmentStatePagerAdapter {
 
 
