@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hehe"
         android:usesCleartextTraffic="true">
-        <activity android:name=".SplashActivity"></activity>
+        <activity android:name=".Sum.SumActivity"></activity>
         <activity android:name=".Signup.SignInActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".FindPasswdActivity" />
@@ -25,7 +25,7 @@
         <activity android:name=".SettingPage.AddBFActivity" />
         <activity android:name=".SettingPage.SetIdActivity" />
         <activity android:name=".Signup.SignUpActivity" />
-        <activity android:name=".Sum.SumActivity">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
