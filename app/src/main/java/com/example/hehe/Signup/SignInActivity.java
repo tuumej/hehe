@@ -3,8 +3,6 @@ package com.example.hehe.Signup;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.net.http.HttpResponseCache;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -12,8 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.hehe.FindPasswdActivity;
-import com.example.hehe.InitActivity;
-import com.example.hehe.LogFireActivity;
+import com.example.hehe.MainActivity;
 import com.example.hehe.R;
 
 import java.io.BufferedReader;
@@ -103,7 +100,7 @@ public class SignInActivity extends AppCompatActivity {
                         receiveMsg = br.toString();
 
                         // 성공 시, 메인화면으로 전환
-                        Intent intent = new Intent(getApplicationContext(), InitActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(intent);
 
                     } else {
