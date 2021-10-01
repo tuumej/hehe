@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.example.hehe.Signup.SignInActivity;
+import com.example.hehe.Signup.LoginActivity;
 
 public class FindPasswdActivity extends AppCompatActivity {
 
@@ -24,7 +24,7 @@ public class FindPasswdActivity extends AppCompatActivity {
         new_pw_btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(), SignInActivity.class);
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
             }
         });
