@@ -20,7 +20,7 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
 
             case  0:
-                return new HomeFragment();
+                return new MainFragment();
 
             case  1:
                 return new VSFragment();
@@ -29,7 +29,7 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
                 return new SetFragment();
 
             default:
-                return new HomeFragment();
+                return new MainFragment();
         }
     }
 
