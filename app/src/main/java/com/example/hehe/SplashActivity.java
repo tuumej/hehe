@@ -25,7 +25,6 @@ private void startLoading(){
         @Override
         public void run() {
             Log.e(Tag,"Application Running.....");
-            startActivity(new Intent(getApplicationContext(), SignInActivity.class));
             startActivity(new Intent(getApplicationContext(), LoginActivity.class));
             finish();
         }
