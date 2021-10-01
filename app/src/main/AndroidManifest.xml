@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hehe"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Signup.SignInActivity"/>
+        <activity android:name=".Signup.LoginActivity"/>
         <activity android:name=".MainActivity" />
         <activity android:name=".InitActivity" />
         <activity android:name=".FindPasswdActivity" />
@@ -23,7 +23,7 @@
         <activity android:name=".SettingPage.BellActivity" />
         <activity android:name=".SettingPage.AddBFActivity" />
         <activity android:name=".SettingPage.SetIdActivity" />
-        <activity android:name=".Signup.SignUpActivity" />
+        <activity android:name=".Signup.RegisterActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
