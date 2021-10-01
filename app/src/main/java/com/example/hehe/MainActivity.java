@@ -50,7 +50,7 @@ private BottomNavigationView bottomNavigationView;
             public void onPageSelected(int position) {
                 switch (position){
                     case 0:
-                        bottomNavigationView.getMenu().findItem(R.id.menu_home).setChecked(true);
+                        bottomNavigationView.getMenu().findItem(R.id.menu_main).setChecked(true);
                        break;
 
                     case 1:
@@ -75,14 +75,14 @@ private BottomNavigationView bottomNavigationView;
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
-                    case R.id.menu_home:
+                    case R.id.menu_main:
                         viewPager.setCurrentItem(0);
                         break;
+
 
                     case R.id.menu_vs:
                         viewPager.setCurrentItem(1);
                         break;
-
 
                     case R.id.menu_set:
                         viewPager.setCurrentItem(2);
@@ -91,5 +91,6 @@ private BottomNavigationView bottomNavigationView;
                 return true;
             }
         });
+
     }
 }
