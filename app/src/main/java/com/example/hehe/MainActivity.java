@@ -91,5 +91,6 @@ private BottomNavigationView bottomNavigationView;
                 return true;
             }
         });
+
     }
 }
