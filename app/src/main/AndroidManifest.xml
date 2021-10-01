@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hehe"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Sum.SumActivity"></activity>
+        <activity android:name=".PopActivity"></activity>
+        <activity android:name=".Sum.SumActivity" />
         <activity android:name=".Signup.SignInActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".FindPasswdActivity" />
