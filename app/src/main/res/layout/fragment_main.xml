@@ -106,4 +106,5 @@
         android:background="@drawable/round_init"
         android:hint="새로운 가계부를 생성하자~" />
 
+
 </RelativeLayout>
