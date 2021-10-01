@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MainFragment">
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:layout_below="@+id/button29"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_init"
+        android:hint="새로운 가계부를 생성하자~" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:layout_below="@+id/button28"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_init"
+        android:hint="새로운 가계부를 생성하자~" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:layout_below="@+id/button19"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_init"
+        android:hint="새로운 가계부를 생성하자~" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="64dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="95dp"
+        android:src="@drawable/loco"
+        tools:src="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#00000000"
+        android:src="@drawable/alarmxml" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="174dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="149dp"
+        android:gravity="center_vertical"
+        android:text="닉네임"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="88dp"
+        android:backgroundTint="#c1f085"
+        android:clickable="true"
+        android:src="@drawable/plus" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_init"
+        android:hint="새로운 가계부를 생성하자~" />
+
+
+</RelativeLayout>
