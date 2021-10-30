@@ -12,8 +12,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.toolbox.Volley;
-import com.example.hehe.InitActivity;
+import com.example.hehe.MainActivity;
 import com.example.hehe.R;
+import com.example.hehe.fragment.MainFragment;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -53,7 +54,7 @@ public class LoginActivity extends AppCompatActivity {
                             if(success) { // 로그인 성공 시
 
                                 Toast.makeText(getApplicationContext(), "환영합니다.", Toast.LENGTH_LONG).show();
-                                Intent intent = new Intent(LoginActivity.this, InitActivity.class);
+                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                 startActivity(intent);
 
                             } else {    // 로그인 실패 시시
