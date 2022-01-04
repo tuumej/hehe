@@ -13,10 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hehe"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Signup.LoginActivity"/>
-        <activity android:name=".PopActivity"></activity>
+        <activity
+            android:name=".Ring_Activity"
+            android:exported="false" />
+        <activity android:name=".Signup.LoginActivity" />
+        <activity android:name=".PopActivity" />
         <activity android:name=".Sum.SumActivity" />
-        <activity android:name=".Signup.SignInActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".FindPasswdActivity" />
         <activity android:name=".LogFireActivity" />
