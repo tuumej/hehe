@@ -45,7 +45,7 @@ public class VSViewPagerAdapter extends FragmentStatePagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position){
             case  0:
-                return "밥";
+                return "외식";
 
             case  1:
                 return "커피";
