@@ -9,17 +9,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 import com.example.hehe.PopActivity;
 import com.example.hehe.R;
-import com.example.hehe.Ring_Activity;
 import com.example.hehe.Sum.SumActivity;
 
 
 public class MainFragment extends Fragment {
     Button btn_sum;
-    ImageButton img_btn;
 
     public MainFragment(){
 
@@ -68,16 +65,6 @@ public class MainFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), SumActivity.class);
-                startActivity(intent);
-
-            }
-        });
-
-        img_btn = v.findViewById(R.id.imageButton4);
-        img_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Ring_Activity.class);
                 startActivity(intent);
 
             }
