@@ -17,6 +17,7 @@ import com.example.hehe.R;
 public class SetIdActivity extends AppCompatActivity implements View.OnClickListener{
 
     Button change_btn;
+    Button fire_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,17 @@ public class SetIdActivity extends AppCompatActivity implements View.OnClickList
                 startActivity(intent);
             }
         });
+
+        fire_btn = findViewById(R.id.fire_botton);
+        fire_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),LogFireActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 
     public void onClick(View v){
