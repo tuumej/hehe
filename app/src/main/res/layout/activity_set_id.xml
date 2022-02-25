@@ -70,7 +70,7 @@
         android:textSize="15sp" />
 
     <Button
-        android:id="@+id/fire_botton"
+        android:id="@+id/button"
         android:layout_width="348dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
