@@ -22,5 +22,12 @@
         android:textSize="20sp"
         android:textStyle="normal" />
 
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="626dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-1dp" />
+
 
 </RelativeLayout>

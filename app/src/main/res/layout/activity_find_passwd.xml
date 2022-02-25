@@ -112,8 +112,8 @@
         android:layout_marginStart="303dp"
         android:layout_marginTop="205dp"
         android:layout_marginEnd="23dp"
-        android:clickable="false"
         android:background="@drawable/round_grey"
+        android:clickable="false"
         android:text="인증번호 전송"
         android:textColor="@color/white"
         android:textSize="10dp" />
