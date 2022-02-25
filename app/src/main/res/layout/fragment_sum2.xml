@@ -3,10 +3,9 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <LinearLayout
-        android:layout_width="372dp"
-        android:layout_height="161dp"
+        android:layout_width="wrap_content"
+        android:layout_height="143dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -19,25 +18,69 @@
         <TextView
             android:id="@+id/textView14"
             android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:text="지출금액"
-            android:textSize="30dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="400,000,000원"
+            android:textAlignment="center"
             android:textColor="@color/black"
-            android:textAlignment="center" />
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView15"
             android:layout_width="match_parent"
             android:layout_height="36dp"
+            android:gravity="center"
             android:text="결제 후 예상 잔액"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/textView16"
             android:layout_width="match_parent"
             android:layout_height="33dp"
-            android:text="00000000원"
-            android:textAlignment="center"/>
+            android:gravity="center"
+            android:text="10,000원"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="66dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="315dp"
+        android:layout_marginBottom="280dp"
+        android:text="전체" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="66dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="235dp"
+        android:layout_marginBottom="280dp"
+        android:text="입금" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="66dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="187dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="280dp"
+        android:text="출금" />
+
 
 </RelativeLayout>
