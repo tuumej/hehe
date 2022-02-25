@@ -22,7 +22,7 @@
         android:textStyle="normal" />
 
     <EditText
-        android:id="@+id/check_id"
+        android:id="@+id/editTextTextEmailAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView4"
@@ -36,11 +36,7 @@
         android:inputType="textEmailAddress" />
 
     <EditText
-<<<<<<< Updated upstream
         android:id="@+id/editTextTextPassword"
-=======
-        android:id="@+id/check_passwd"
->>>>>>> Stashed changes
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView4"
@@ -52,29 +48,20 @@
         android:layout_marginEnd="34dp"
         android:hint="비밀번호"
         android:ems="10"
-<<<<<<< Updated upstream
         android:inputType="textPassword"  />
-=======
-        android:hint="비밀번호"
-        />
->>>>>>> Stashed changes
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="239dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView4"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="160dp"
-<<<<<<< Updated upstream
         android:backgroundTint="@color/white"
         android:textSize="10sp"
-=======
->>>>>>> Stashed changes
         android:background="#00ff0000"
         android:text="비밀번호를 잊으셨나요 ?"
-        android:textColor="#979797"
-        android:textSize="10sp" />
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/button3"
