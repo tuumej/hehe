@@ -7,7 +7,7 @@
 
     <item android:id="@+id/menu_vs"
         android:title="랭킹"
-        android:icon="@drawable/rank"/>
+        android:icon="@drawable/ic_vs"/>
 
     <item android:id="@+id/menu_set"
         android:title="마이페이지"

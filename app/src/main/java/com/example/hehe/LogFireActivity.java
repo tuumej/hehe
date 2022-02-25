@@ -1,14 +1,10 @@
-package com.example.hehe.SettingPage;
+package com.example.hehe;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.Button;
-
-import com.example.hehe.R;
 
 public class LogFireActivity extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
