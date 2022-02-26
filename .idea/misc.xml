@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/circle_blue.xml" value="0.2125" />
+        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/round_grey.xml" value="0.2" />
+        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/round_init.xml" value="0.2" />
+        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/round_search.xml" value="0.2" />
+        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/round_white.xml" value="0.2" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_add_bf.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_change_passwd.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_check_passwd.xml" value="0.20520833333333333" />
@@ -13,6 +18,7 @@
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_main_list.xml" value="0.25" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_pop.xml" value="0.25" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_ring.xml" value="0.1" />
+        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_ring_list.xml" value="0.33" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_set_id.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_sign_in.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_sign_up.xml" value="0.36614583333333334" />
