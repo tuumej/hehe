@@ -13,7 +13,6 @@ import android.widget.ImageButton;
 
 import com.example.hehe.PopActivity;
 import com.example.hehe.R;
-import com.example.hehe.Ring_Activity;
 import com.example.hehe.Sum.SumActivity;
 
 
@@ -77,7 +76,7 @@ public class MainFragment extends Fragment {
         img_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Ring_Activity.class);
+                Intent intent = new Intent(getActivity(), Ring_Click_Activity.class);
                 startActivity(intent);
 
             }

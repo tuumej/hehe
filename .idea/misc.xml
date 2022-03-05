@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable-v24/ring1.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable-v24/ring2.xml" value="0.30092592592592593" />
+        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable-v24/ring3.xml" value="0.1" />
+        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable-v24/ring4.xml" value="0.1" />
+        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/alarmxml.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/circle_blue.xml" value="0.2125" />
+        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/round.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/round_grey.xml" value="0.2" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/round_init.xml" value="0.2" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/round_search.xml" value="0.2" />
@@ -18,7 +24,7 @@
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_main_list.xml" value="0.25" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_pop.xml" value="0.25" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_ring.xml" value="0.1" />
-        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_ring_list.xml" value="0.33" />
+        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_ring_list.xml" value="0.1" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_set_id.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_sign_in.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/layout/activity_sign_up.xml" value="0.36614583333333334" />
@@ -43,5 +49,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
   </component>
 </project>
