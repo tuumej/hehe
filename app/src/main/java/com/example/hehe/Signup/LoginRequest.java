@@ -10,7 +10,7 @@ import java.util.Map;
 public class LoginRequest extends StringRequest {
 
     // 서버 URL 설정 ( JSP 파일 연동 )
-    final static private String URL = "http://192.168.98.1:8080/planco/loginAction2.do";
+    final static private String URL = "http://192.168.0.4:8080/planco/loginAction2.do";
     private Map<String, String> map;
 
     public LoginRequest(String email, String passwd, Response.Listener<String> listener) {
