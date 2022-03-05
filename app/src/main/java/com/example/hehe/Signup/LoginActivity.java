@@ -12,8 +12,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.toolbox.Volley;
+import com.example.hehe.FindPasswdActivity;
 import com.example.hehe.MainActivity;
 import com.example.hehe.R;
+import com.example.hehe.SettingPage.SetIdActivity;
 import com.example.hehe.fragment.MainFragment;
 
 import org.json.JSONException;
@@ -23,6 +25,8 @@ public class LoginActivity extends AppCompatActivity {
 
     private EditText et_Email, et_Passwd;
     private Button btn_login;
+    private Button btn_signup;
+    private Button btn_find_pw;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +80,24 @@ public class LoginActivity extends AppCompatActivity {
                 RequestQueue queue = Volley.newRequestQueue(LoginActivity.this);
                 queue.add(loginRequest);
 
+            }
+        });
+
+        btn_signup = findViewById(R.id.btn_registeractivity);
+        btn_signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_find_pw = findViewById(R.id.button13);
+        btn_find_pw.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), FindPasswdActivity.class);
+                startActivity(intent);
             }
         });
 
