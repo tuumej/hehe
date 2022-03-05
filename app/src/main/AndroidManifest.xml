@@ -14,10 +14,13 @@
         android:theme="@style/Theme.Hehe"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".VS.PopActivitySpend"
+            android:exported="false" />
+        <activity
             android:name=".Ring.RingActivity"
             android:exported="false" />
         <activity android:name=".Signup.LoginActivity" />
-        <activity android:name=".PopActivity" />
+        <activity android:name=".PopActivityIncome" />
         <activity android:name=".Sum.SumActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".FindPasswdActivity" />

@@ -81,18 +81,6 @@
         android:textSize="24sp"
         />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="22dp"
-        android:layout_marginBottom="88dp"
-        android:backgroundTint="#c1f085"
-        android:clickable="true"
-        android:src="@drawable/plus" />
-
     <Button
         android:id="@+id/button19"
         android:layout_width="wrap_content"

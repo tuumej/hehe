@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-import com.example.hehe.PopActivity;
+import com.example.hehe.PopActivityIncome;
 import com.example.hehe.R;
 import com.example.hehe.Ring.RingActivity;
 import com.example.hehe.Sum.SumActivity;
@@ -35,7 +35,7 @@ public class MainFragment extends Fragment {
         btn_sum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), PopActivity.class);
+                Intent intent = new Intent(getActivity(), PopActivityIncome.class);
                 startActivity(intent);
 
             }
