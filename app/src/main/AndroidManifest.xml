@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hehe"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Ring.RingActivity"
+            android:exported="false" />
         <activity android:name=".Signup.LoginActivity" />
         <activity android:name=".PopActivity" />
         <activity android:name=".Sum.SumActivity" />
