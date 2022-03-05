@@ -7,7 +7,7 @@
     tools:context=".VS.Tab1FragmentVS">
 
     <ImageView
-        android:layout_width="340dp"
+        android:layout_width="344dp"
         android:layout_height="787dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
