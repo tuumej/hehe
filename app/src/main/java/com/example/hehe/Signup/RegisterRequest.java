@@ -10,16 +10,16 @@ import java.util.Map;
 public class RegisterRequest extends StringRequest {
 
     // 서버 URL 설정 ( JSP 파일 연동 )
-    final static private String URL = "http://18.117.8.18:8080/planco/register.jsp";
+    final static private String URL = "http://192.168.0.4:8080/planco/registerAction.do";
     private Map<String, String> map;
 
     public RegisterRequest(String email, String passwd, String nickname, Response.Listener<String> listener) {
         super(Method.POST, URL, listener, null);
 
         map = new HashMap<>();
-        map.put("email", email);
-        map.put("passwd", passwd);
-        map.put("nickname", nickname);
+        map.put("E_MAIL", email);
+        map.put("PASSWD", passwd);
+        map.put("NICK_NAME", nickname);
     }
 
     protected Map<String, String> getParams() throws AuthFailureError {
