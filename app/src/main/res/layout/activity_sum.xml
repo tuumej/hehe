@@ -9,9 +9,8 @@
     <FrameLayout
         android:id="@+id/frame"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/tabs">
-    </FrameLayout>
+        android:layout_height="308dp"
+        android:layout_below="@id/tabs"></FrameLayout>
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabs"

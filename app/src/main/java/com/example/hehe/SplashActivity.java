@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.util.Log;
 
 import com.example.hehe.Signup.LoginActivity;
+import com.example.hehe.onboarding.OnboardingActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -25,7 +26,7 @@ private void startLoading(){
         @Override
         public void run() {
             Log.e(Tag,"Application Running.....");
-            startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+            startActivity(new Intent(getApplicationContext(), OnboardingActivity.class));
             finish();
         }
     }, 5000);

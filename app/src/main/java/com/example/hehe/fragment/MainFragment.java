@@ -31,7 +31,7 @@ public class MainFragment extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_main, container, false);
 
-        btn_sum = v.findViewById(R.id.button19);
+        btn_sum = v.findViewById(R.id.button16);
         btn_sum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,7 +43,7 @@ public class MainFragment extends Fragment {
 
 
 
-        btn_sum = v.findViewById(R.id.button28);
+        btn_sum = v.findViewById(R.id.button17);
         btn_sum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,7 +53,7 @@ public class MainFragment extends Fragment {
             }
         });
 
-        btn_sum = v.findViewById(R.id.button29);
+        btn_sum = v.findViewById(R.id.button19);
         btn_sum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,7 +63,7 @@ public class MainFragment extends Fragment {
             }
         });
 
-        btn_sum = v.findViewById(R.id.button30);
+        btn_sum = v.findViewById(R.id.button14);
         btn_sum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
