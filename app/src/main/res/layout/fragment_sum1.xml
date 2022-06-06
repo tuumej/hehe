@@ -16,4 +16,11 @@
 
     </com.github.mikephil.charting.charts.PieChart>
 
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barchart"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp" />
+
 </RelativeLayout>

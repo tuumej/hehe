@@ -42,7 +42,6 @@ public class MainFragment extends Fragment {
         });
 
 
-
         btn_sum = v.findViewById(R.id.button17);
         btn_sum.setOnClickListener(new View.OnClickListener() {
             @Override

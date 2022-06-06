@@ -13,9 +13,11 @@ import android.view.ViewGroup;
 
 import com.example.hehe.R;
 import com.github.mikephil.charting.animation.Easing;
+import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.Description;
 import com.github.mikephil.charting.components.Legend;
+import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
@@ -27,6 +29,7 @@ import java.util.ArrayList;
 public class SumFragment1 extends Fragment {
 
     PieChart pieChart;
+    BarChart barChart;
 
     @Nullable
     @Override
@@ -36,12 +39,18 @@ public class SumFragment1 extends Fragment {
         View v = inflater.inflate(R.layout.fragment_sum1, container, false);
 
         pieChart = v.findViewById(R.id.piechart);
+        barChart = v.findViewById(R.id.barchart);
 
         pieChart.setUsePercentValues(true);
         pieChart.getDescription().setEnabled(false);
         pieChart.setExtraOffsets(10,10,10,0);
 
         pieChart.setDragDecelerationFrictionCoef(0.95f);
+
+        barChart.getDescription().setEnabled(false);
+        barChart.setExtraOffsets(10,10,10,0);
+
+        barChart.setDragDecelerationFrictionCoef(0.95f);
 
         //가운데 원형 뚫는거
         pieChart.setDrawHoleEnabled(true);
@@ -61,11 +70,14 @@ public class SumFragment1 extends Fragment {
 
         ArrayList<PieEntry> yValues = new ArrayList<PieEntry>();
 
+
         yValues.add(new PieEntry(30f,"교통비"));
         yValues.add(new PieEntry(30f,"생활용품"));
         yValues.add(new PieEntry(30f,"식비"));
         yValues.add(new PieEntry(30f,"취미"));
         yValues.add(new PieEntry(30f,"기타"));
+
+
 
         pieChart.animateY(1000, Easing.EasingOption.EaseInOutCubic); //애니메이션
 
@@ -82,6 +94,5 @@ public class SumFragment1 extends Fragment {
 
         return v;
     }
-
 
 }
