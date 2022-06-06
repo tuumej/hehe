@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,6 +19,7 @@ import com.example.hehe.R;
 import com.example.hehe.SettingPage.SetIdActivity;
 import com.example.hehe.fragment.MainFragment;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -51,14 +53,15 @@ public class LoginActivity extends AppCompatActivity {
                     public void onResponse(String response) {
 
                         try{
-
                             JSONObject jsonObject = new JSONObject(response);
                             boolean success = jsonObject.getBoolean("success");
 
                             if(success) { // 로그인 성공 시
 
+
                                 Toast.makeText(getApplicationContext(), "환영합니다.", Toast.LENGTH_LONG).show();
                                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                intent.putExtra("nickname","tuumej");
                                 startActivity(intent);
 
                             } else {    // 로그인 실패 시시
@@ -67,7 +70,7 @@ public class LoginActivity extends AppCompatActivity {
                                 return;
 
                             }
-
+                                System.out.println("##############"+jsonObject);
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
