@@ -104,9 +104,9 @@
         android:layout_width="46dp"
         android:layout_height="46dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="29dp"
-        android:layout_marginBottom="438dp"
+        android:layout_marginTop="247dp"
         android:background="@drawable/work_pay" />
 
     <TextView
@@ -114,9 +114,9 @@
         android:layout_width="296dp"
         android:layout_height="41dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="80dp"
-        android:layout_marginBottom="440dp"
+        android:layout_marginTop="250dp"
         android:background="@drawable/round_search"
         android:gravity="center_vertical"
         android:hint="   월급"
@@ -127,9 +127,9 @@
         android:layout_width="46dp"
         android:layout_height="46dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="29dp"
-        android:layout_marginBottom="387dp"
+        android:layout_marginTop="298dp"
         android:background="@drawable/parent_pay" />
 
     <TextView
@@ -137,9 +137,9 @@
         android:layout_width="296dp"
         android:layout_height="41dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="80dp"
-        android:layout_marginBottom="389dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="300dp"
         android:background="@drawable/round_search"
         android:gravity="center_vertical"
         android:hint="   용돈"
@@ -150,22 +150,46 @@
         android:layout_width="46dp"
         android:layout_height="46dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="29dp"
-        android:layout_marginBottom="337dp"
+        android:layout_marginTop="348dp"
         android:background="@drawable/back_pay" />
+
 
     <TextView
         android:id="@+id/textView21"
         android:layout_width="296dp"
         android:layout_height="41dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="80dp"
-        android:layout_marginBottom="339dp"
+        android:layout_marginTop="350dp"
         android:background="@drawable/round_search"
         android:gravity="center_vertical"
         android:hint="   환불"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="398dp"
+        android:background="@drawable/etc_pay" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="296dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/round_search"
+        android:gravity="center_vertical"
+        android:hint="   기타"
         android:textSize="17dp" />
 
 
