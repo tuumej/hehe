@@ -50,18 +50,18 @@
         android:hint="  가계부 제목"
         android:inputType="textPersonName" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName4"
-            android:layout_width="159dp"
-            android:layout_height="42dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="215dp"
-            android:layout_marginTop="152dp"
-            android:background="@drawable/round_search"
-            android:ems="10"
-            android:hint="   종료일"
-            android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="159dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/round_search"
+        android:ems="10"
+        android:hint="   종료일"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -104,19 +104,19 @@
         android:layout_width="46dp"
         android:layout_height="46dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="29dp"
-        android:layout_marginBottom="438dp"
+        android:layout_marginTop="247dp"
         android:background="@drawable/work_pay" />
 
-    <TextView
+    <EditText
         android:id="@+id/textView19"
         android:layout_width="296dp"
         android:layout_height="41dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="80dp"
-        android:layout_marginBottom="440dp"
+        android:layout_marginTop="250dp"
         android:background="@drawable/round_search"
         android:gravity="center_vertical"
         android:hint="   월급"
@@ -127,19 +127,19 @@
         android:layout_width="46dp"
         android:layout_height="46dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="29dp"
-        android:layout_marginBottom="387dp"
+        android:layout_marginTop="298dp"
         android:background="@drawable/parent_pay" />
 
-    <TextView
+    <EditText
         android:id="@+id/textView20"
         android:layout_width="296dp"
         android:layout_height="41dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="80dp"
-        android:layout_marginBottom="389dp"
+        android:layout_marginTop="301dp"
         android:background="@drawable/round_search"
         android:gravity="center_vertical"
         android:hint="   용돈"
@@ -150,22 +150,45 @@
         android:layout_width="46dp"
         android:layout_height="46dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="29dp"
-        android:layout_marginBottom="337dp"
+        android:layout_marginTop="348dp"
         android:background="@drawable/back_pay" />
 
-    <TextView
+    <EditText
         android:id="@+id/textView21"
         android:layout_width="296dp"
         android:layout_height="41dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="80dp"
-        android:layout_marginBottom="339dp"
+        android:layout_marginTop="351dp"
         android:background="@drawable/round_search"
         android:gravity="center_vertical"
         android:hint="   환불"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="401dp"
+        android:background="@drawable/etc_pay" />
+
+    <EditText
+        android:id="@+id/textView22"
+        android:layout_width="296dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="402dp"
+        android:background="@drawable/round_search"
+        android:gravity="center_vertical"
+        android:hint="   기타"
         android:textSize="17dp" />
 
 

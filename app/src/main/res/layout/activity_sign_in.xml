@@ -55,6 +55,7 @@
         android:lineSpacingExtra="4.5sp"
         android:textColor="#a6a6a6"
         android:textSize="12.5sp" />
+
     <Button
         android:id="@+id/btn_login"
         android:layout_width="wrap_content"
@@ -65,10 +66,10 @@
         android:layout_marginStart="34dp"
         android:layout_marginTop="465dp"
         android:layout_marginEnd="34dp"
-        android:background="@drawable/round"
-        android:textStyle="bold"
         android:layout_marginBottom="356dp"
-        android:text="로그인" />
+        android:background="@drawable/round"
+        android:text="로그인"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btn_registeractivity"

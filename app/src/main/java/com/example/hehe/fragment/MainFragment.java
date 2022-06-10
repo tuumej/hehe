@@ -35,6 +35,16 @@ public class MainFragment extends Fragment {
         btn_sum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), SumActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        btn_sum = v.findViewById(R.id.button20);
+        btn_sum.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), PopActivityIncome.class);
                 startActivity(intent);
 
@@ -71,6 +81,7 @@ public class MainFragment extends Fragment {
 
             }
         });
+
 
         img_btn = v.findViewById(R.id.imageButton4);
         img_btn.setOnClickListener(new View.OnClickListener() {
