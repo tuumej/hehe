@@ -31,11 +31,51 @@ public class MainFragment extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_main, container, false);
 
-        btn_sum = v.findViewById(R.id.button16);
+        btn_sum = v.findViewById(R.id.button20);
         btn_sum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), PopActivityIncome.class);
+                startActivity(intent);
+
+            }
+        });
+
+        btn_sum = v.findViewById(R.id.button18);
+        btn_sum.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), PopActivityIncome.class);
+                startActivity(intent);
+
+            }
+        });
+
+        btn_sum = v.findViewById(R.id.button21);
+        btn_sum.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), PopActivityIncome.class);
+                startActivity(intent);
+
+            }
+        });
+
+        btn_sum = v.findViewById(R.id.button22);
+        btn_sum.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), PopActivityIncome.class);
+                startActivity(intent);
+
+            }
+        });
+
+        btn_sum = v.findViewById(R.id.button16);
+        btn_sum.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), SumActivity.class);
                 startActivity(intent);
 
             }
@@ -71,6 +111,7 @@ public class MainFragment extends Fragment {
 
             }
         });
+
 
         img_btn = v.findViewById(R.id.imageButton4);
         img_btn.setOnClickListener(new View.OnClickListener() {

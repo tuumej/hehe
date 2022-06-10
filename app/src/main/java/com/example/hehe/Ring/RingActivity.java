@@ -21,22 +21,22 @@ public class RingActivity extends AppCompatActivity {
 
         ListView listView = findViewById(R.id.listView);
         RingAdapter adapter = new RingAdapter();
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring1));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring2));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring3));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring4));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring1));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring2));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring3));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring4));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring1));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring2));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring3));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring4));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring1));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring2));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring3));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.ring4));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.meal_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.home_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.insure_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.pray_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.back_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.life_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.coffee_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.etc_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.hobby_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.shop_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.meal_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.shop_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.meal_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.etc_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.shop_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.meal_pay));
 
         listView.setAdapter(adapter);
 
