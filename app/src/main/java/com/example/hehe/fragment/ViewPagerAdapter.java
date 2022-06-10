@@ -20,7 +20,6 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
 
             case  0:
-
                 return new MainFragment();
 
             case  1:

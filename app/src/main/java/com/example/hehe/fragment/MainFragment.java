@@ -3,7 +3,6 @@ package com.example.hehe.fragment;
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -11,9 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.TextView;
 
-import com.example.hehe.MainActivity;
 import com.example.hehe.PopActivityIncome;
 import com.example.hehe.R;
 import com.example.hehe.Ring.RingActivity;
@@ -21,10 +18,8 @@ import com.example.hehe.Sum.SumActivity;
 
 
 public class MainFragment extends Fragment {
-    public Bundle arguments;
     Button btn_sum;
     ImageButton img_btn;
-    TextView main_nickname;
 
     public MainFragment(){
 
@@ -46,12 +41,6 @@ public class MainFragment extends Fragment {
             }
         });
 
-        Bundle bundle = getArguments();
-        String text = bundle.getString("nickname");
-        main_nickname.setText(text);
-
-        main_nickname = v.findViewById(R.id.textView12);
-        main_nickname.setText("1111");
 
         btn_sum = v.findViewById(R.id.button17);
         btn_sum.setOnClickListener(new View.OnClickListener() {
