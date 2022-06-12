@@ -16,12 +16,12 @@
         android:layout_marginStart="118.3dp"
         android:layout_marginTop="99dp"
         android:layout_marginEnd="118.3dp"
-        android:textStyle="normal"
+        android:textStyle="bold"
         android:textSize="24sp"
         android:textColor="#303030"
         android:lineSpacingExtra="3.3sp"
         android:gravity="center"
-        android:text="준비됐나요~" />
+        android:text="회원가입" />
 
     <EditText
         android:id="@+id/et_Nickname"
@@ -31,13 +31,13 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="201.1dp"
+        android:layout_marginTop="180dp"
         android:layout_marginEnd="34dp"
         android:background="@drawable/round_white"
         android:ems="10"
+        android:hint="   닉네임"
         android:inputType="textPersonName"
         android:lineSpacingExtra="4.5sp"
-        android:hint="   닉네임"
         android:textColor="#a6a6a6"
         android:textSize="12.5sp"
         android:textStyle="normal" />
@@ -50,7 +50,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="253.5dp"
+        android:layout_marginTop="230dp"
         android:layout_marginEnd="33dp"
         android:background="@drawable/round_white"
         android:ems="10"
@@ -69,7 +69,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="305.8dp"
+        android:layout_marginTop="277.5dp"
         android:layout_marginEnd="34dp"
         android:background="@drawable/round_white"
         android:ems="10"
@@ -87,7 +87,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="358dp"
+        android:layout_marginTop="321dp"
         android:layout_marginEnd="34dp"
         android:background="@drawable/round_white"
         android:ems="10"
@@ -105,12 +105,23 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="430.3dp"
+        android:layout_marginTop="420dp"
         android:layout_marginEnd="34dp"
         android:layout_marginBottom="356dp"
         android:background="@drawable/round"
-        android:textStyle="bold"
-        android:text="회원가입" />
+        android:text="회원가입"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="323dp"
+        android:textSize="12dp"
+        android:text="개인정보 수집 및 이용 동의 (필수)" />
 
 
 </RelativeLayout>
