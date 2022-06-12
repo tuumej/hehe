@@ -18,7 +18,6 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
         switch (position){
 
-
             case  0:
                 return new MainFragment();
 

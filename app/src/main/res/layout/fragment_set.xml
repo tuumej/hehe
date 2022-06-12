@@ -19,8 +19,8 @@
         android:src="@drawable/loco"
         tools:src="@tools:sample/avatars" />
 
-    <EditText
-        android:id="@+id/textView2"
+    <TextView
+        android:id="@+id/fragementset_NICKNAME"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"

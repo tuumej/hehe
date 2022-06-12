@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,6 +19,7 @@ import com.example.hehe.R;
 import com.example.hehe.SettingPage.SetIdActivity;
 import com.example.hehe.fragment.MainFragment;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -51,14 +53,22 @@ public class LoginActivity extends AppCompatActivity {
                     public void onResponse(String response) {
 
                         try{
-
                             JSONObject jsonObject = new JSONObject(response);
-                            boolean success = jsonObject.getBoolean("success");
+                            Boolean success = jsonObject.getBoolean("success");
+                            String E_MAIL = jsonObject.getString("E_MAIL");
+                            String NICK_NAME = jsonObject.getString("NICK_NAME");
+                            String TOTAL_CASH = jsonObject.getString("TOTAL_CASH");
+                            String USER_KEY = jsonObject.getString("USER_KEY");
 
                             if(success) { // 로그인 성공 시
 
                                 Toast.makeText(getApplicationContext(), "환영합니다.", Toast.LENGTH_LONG).show();
                                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                intent.putExtra("E_MAIL",E_MAIL);
+                                intent.putExtra("NICK_NAME",NICK_NAME);
+                                intent.putExtra("TOTAL_CASH",TOTAL_CASH);
+                                intent.putExtra("USER_KEY",USER_KEY);
+
                                 startActivity(intent);
 
                             } else {    // 로그인 실패 시시
@@ -67,7 +77,7 @@ public class LoginActivity extends AppCompatActivity {
                                 return;
 
                             }
-
+                                //System.out.println("##############"+jsonObject);
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
