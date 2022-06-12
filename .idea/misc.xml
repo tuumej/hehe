@@ -4,11 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/geng1/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/activity_list_item.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/geng1/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_list_item_1.xml" value="0.20885416666666667" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable-v24/ring1.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable-v24/ring2.xml" value="0.30092592592592593" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable-v24/ring3.xml" value="0.1" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable-v24/ring4.xml" value="0.1" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/alarmxml.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/back_select_vs.xml" value="0.225" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/circle_blue.xml" value="0.2125" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/round.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/geng1/StudioProjects/hehe/app/src/main/res/drawable/round_grey.xml" value="0.2" />

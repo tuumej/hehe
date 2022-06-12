@@ -23,7 +23,7 @@ public class RingActivity extends AppCompatActivity {
         RingAdapter adapter = new RingAdapter();
         adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.meal_pay));
         adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.home_pay));
-        adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.insure_pay));
+        adapter.addItem(new RingItem("000님이 친구 요청을 하였fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff습니다.",R.drawable.insure_pay));
         adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.pray_pay));
         adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.back_pay));
         adapter.addItem(new RingItem("000님이 친구 요청을 하였습니다.",R.drawable.life_pay));

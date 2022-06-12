@@ -117,11 +117,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="34dp"
-        android:layout_marginBottom="323dp"
+        android:layout_marginTop="376dp"
+        android:text="개인정보 수집 및 이용 동의"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="376dp"
+        android:gravity="center"
+        android:text="(필수)"
+        android:textColor="#fd9595"
         android:textSize="12dp"
-        android:text="개인정보 수집 및 이용 동의 (필수)" />
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

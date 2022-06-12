@@ -1,5 +1,9 @@
 package com.example.hehe.Signup;
 
+import android.provider.ContactsContract;
+import android.util.Patterns;
+import android.widget.Toast;
+
 import com.android.volley.AuthFailureError;
 import com.android.volley.Response;
 import com.android.volley.toolbox.StringRequest;
@@ -20,6 +24,15 @@ public class RegisterRequest extends StringRequest {
         map.put("E_MAIL", email);
         map.put("PASSWD", passwd);
         map.put("NICK_NAME", nickname);
+
+        if(!android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches())
+        {
+            Toast.makeText(RegisterRequest.this,"이메일 형식이 아닙니다", Toast.LENGTH_SHORT).show();
+            dialog.dismiss();
+            return;
+        }
+
+
     }
 
     protected Map<String, String> getParams() throws AuthFailureError {
