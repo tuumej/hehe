@@ -6,38 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".fragment.MainFragment">
 
-    <Button
-        android:id="@+id/button18"
-        android:layout_width="38dp"
-        android:layout_height="115dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="26dp"
-        android:layout_marginBottom="301dp"
-        android:background="#00ff0000"
-        android:text=">"
-        android:textSize="14dp" />
-
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="370dp"
-        android:layout_height="125dp"
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_below="@+id/imageView6"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="161dp"
-        android:src="@drawable/back_select_vs" />
+        android:background="@drawable/main_page_3" />
 
     <Button
         android:id="@+id/button19"
-        android:layout_width="38dp"
-        android:layout_height="115dp"
+        android:layout_width="46dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/imageView6"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="31dp"
-        android:layout_marginBottom="166dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="28dp"
         android:background="#00ff0000"
         android:text=">"
         android:textSize="14dp" />
@@ -47,55 +35,45 @@
         android:layout_width="370dp"
         android:layout_height="125dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="21dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
         android:layout_marginEnd="19dp"
-        android:layout_marginBottom="297dp"
-        android:src="@drawable/back_select_vs" />
+        android:background="@drawable/main_page_2" />
 
     <Button
         android:id="@+id/button17"
-        android:layout_width="38dp"
-        android:layout_height="115dp"
+        android:layout_width="50dp"
+        android:layout_height="117dp"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="26dp"
-        android:layout_marginBottom="301dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="27dp"
         android:background="#00ff0000"
         android:text=">"
         android:textSize="14dp" />
 
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="67dp"
-        android:layout_marginBottom="61dp"
-        android:text="결제 후 예상 금액" />
-
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
-        android:layout_height="131dp"
+        android:layout_height="126dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="21dp"
-        android:layout_marginBottom="430dp"
-        android:src="@drawable/back_select_vs" />
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/main_page_1" />
 
     <Button
         android:id="@+id/button16"
-        android:layout_width="39dp"
-        android:layout_height="99dp"
+        android:layout_width="50dp"
+        android:layout_height="109dp"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="453dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="29dp"
         android:background="#00ff0000"
         android:text=">"
         android:textSize="14dp" />
@@ -140,133 +118,65 @@
         android:id="@+id/imageView4"
         android:layout_width="370dp"
         android:layout_height="125dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="25dp"
-        android:src="@drawable/back_select_vs" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="218dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="68dp"
-        android:layout_marginBottom="93dp"
-        android:gravity="end"
-        android:lineSpacingExtra="4.3sp"
-        android:textSize="30.3sp"
-        android:textStyle="normal"
-        tools:text="2,410,009" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/main_page_4" />
 
     <Button
         android:id="@+id/button14"
-        android:layout_width="36dp"
+        android:layout_width="47dp"
         android:layout_height="109dp"
+        android:layout_below="@+id/imageView7"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="26dp"
         android:background="#00ff0000"
         android:text=">"
         android:textSize="14dp" />
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="67dp"
-        android:layout_marginBottom="61dp"
-        android:text="결제 후 예상 금액" />
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="23dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/add_set" />
 
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="102dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="67dp"
-        android:layout_marginBottom="38dp"
-        android:gravity="end"
-        android:text="2,355,001" />
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="23dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="309dp"
+        android:background="@drawable/add_set" />
 
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="486dp"
-        android:text="결제 후 예상 금액" />
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="23dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="441dp"
+        android:background="@drawable/add_set" />
 
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="105dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="67dp"
-        android:layout_marginBottom="458dp"
-        android:gravity="end"
-        android:text="2,355,001" />
-
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="166dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="66dp"
-        android:layout_marginBottom="509dp"
-        android:gravity="end"
-        android:lineSpacingExtra="4.3sp"
-        android:text="2,355,001"
-        android:textSize="30.3sp"
-        android:textStyle="normal" />
-
-    <TextView
-        android:id="@+id/textView25"
-        android:layout_width="155dp"
-        android:layout_height="48dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="72dp"
-        android:layout_marginBottom="366dp"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="116dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="78dp"
-        android:layout_marginBottom="334dp"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/textView27"
-        android:layout_width="123dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="77dp"
-        android:layout_marginBottom="304dp"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/textView28"
-        android:layout_width="139dp"
-        android:layout_height="34dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="74dp"
-        android:layout_marginBottom="237dp"
-        android:text="TextView" />
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="23dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="577dp"
+        android:background="@drawable/add_set" />
 
 
 </RelativeLayout>
