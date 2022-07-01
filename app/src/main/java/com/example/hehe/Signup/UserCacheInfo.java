@@ -14,9 +14,5 @@ public class UserCacheInfo {
     public static String FORTH_ACCOUNT_BOOK_PAY = "";
     public static String FIFTH_ACCOUNT_BOOK_TITLE = "";
     public static String FIFTH_ACCOUNT_BOOK_PAY = "";
-   //public static String E_MAIL = "";
-   //public static String E_MAIL = "";
-   //public static String E_MAIL = "";
-   //public static String E_MAIL = "";
 
 }

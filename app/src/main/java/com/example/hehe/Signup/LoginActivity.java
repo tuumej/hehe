@@ -58,7 +58,13 @@ public class LoginActivity extends AppCompatActivity {
                             String E_MAIL = jsonObject.getString("E_MAIL");
                             String NICK_NAME = jsonObject.getString("NICK_NAME");
                             String FIRST_ACCOUNT_BOOK_TITLE = jsonObject.getString("FIRST_ACCOUNT_BOOK_TITLE");
-                            String FIRST_ACCOUNT_BOOK_CASH = jsonObject.getString("FIRST_ACCOUNT_BOOK_CASH");
+                            String FIRST_ACCOUNT_BOOK_PAY = jsonObject.getString("FIRST_ACCOUNT_BOOK_PAY");
+                            String SECOND_ACCOUNT_BOOK_TITLE = jsonObject.getString("SECOND_ACCOUNT_BOOK_TITLE");
+                            String SECOND_ACCOUNT_BOOK_PAY = jsonObject.getString("SECOND_ACCOUNT_BOOK_PAY");
+                            String THIRD_ACCOUNT_BOOK_TITLE = jsonObject.getString("THIRD_ACCOUNT_BOOK_TITLE");
+                            String THIRD_ACCOUNT_BOOK_PAY = jsonObject.getString("THIRD_ACCOUNT_BOOK_PAY");
+                            String FORTH_ACCOUNT_BOOK_TITLE = jsonObject.getString("FORTH_ACCOUNT_BOOK_TITLE");
+                            String FORTH_ACCOUNT_BOOK_PAY = jsonObject.getString("FORTH_ACCOUNT_BOOK_PAY");
                             String USER_KEY = jsonObject.getString("USER_KEY");
 
                             if(success) { // 로그인 성공 시
@@ -68,7 +74,13 @@ public class LoginActivity extends AppCompatActivity {
                                 intent.putExtra("E_MAIL",E_MAIL);
                                 intent.putExtra("NICK_NAME",NICK_NAME);
                                 intent.putExtra("FIRST_ACCOUNT_BOOK_TITLE",FIRST_ACCOUNT_BOOK_TITLE);
-                                intent.putExtra("FIRST_ACCOUNT_BOOK_CASH",FIRST_ACCOUNT_BOOK_CASH);
+                                intent.putExtra("FIRST_ACCOUNT_BOOK_PAY",FIRST_ACCOUNT_BOOK_PAY);
+                                intent.putExtra("SECOND_ACCOUNT_BOOK_TITLE",SECOND_ACCOUNT_BOOK_TITLE);
+                                intent.putExtra("SECOND_ACCOUNT_BOOK_PAY",SECOND_ACCOUNT_BOOK_PAY);
+                                intent.putExtra("THIRD_ACCOUNT_BOOK_TITLE",THIRD_ACCOUNT_BOOK_TITLE);
+                                intent.putExtra("THIRD_ACCOUNT_BOOK_PAY",THIRD_ACCOUNT_BOOK_PAY);
+                                intent.putExtra("FORTH_ACCOUNT_BOOK_TITLE",FORTH_ACCOUNT_BOOK_TITLE);
+                                intent.putExtra("FORTH_ACCOUNT_BOOK_PAY",FORTH_ACCOUNT_BOOK_PAY);
                                 intent.putExtra("USER_KEY",USER_KEY);
 
                                 startActivity(intent);

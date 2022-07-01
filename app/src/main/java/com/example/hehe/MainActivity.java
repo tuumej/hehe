@@ -44,13 +44,13 @@ public class MainActivity extends AppCompatActivity {
         UserCacheInfo.NICK_NAME = intent.getStringExtra("NICK_NAME");
         UserCacheInfo.USER_KEY = intent.getStringExtra("USER_KEY");
         UserCacheInfo.FIRST_ACCOUNT_BOOK_TITLE = intent.getStringExtra("FIRST_ACCOUNT_BOOK_TITLE");
-        UserCacheInfo.FIRST_ACCOUNT_BOOK_PAY = intent.getStringExtra("FIRST_ACCOUNT_BOOK_CASH");
+        UserCacheInfo.FIRST_ACCOUNT_BOOK_PAY = intent.getStringExtra("FIRST_ACCOUNT_BOOK_PAY");
         UserCacheInfo.SECOND_ACCOUNT_BOOK_TITLE = intent.getStringExtra("SECOND_ACCOUNT_BOOK_TITLE");
-        UserCacheInfo.SECOND_ACCOUNT_BOOK_PAY = intent.getStringExtra("SECOND_ACCOUNT_BOOK_CASH");
+        UserCacheInfo.SECOND_ACCOUNT_BOOK_PAY = intent.getStringExtra("SECOND_ACCOUNT_BOOK_PAY");
         UserCacheInfo.THIRD_ACCOUNT_BOOK_TITLE = intent.getStringExtra("THIRD_ACCOUNT_BOOK_TITLE");
-        UserCacheInfo.THIRD_ACCOUNT_BOOK_PAY = intent.getStringExtra("THIRD_ACCOUNT_BOOK_CASH");
+        UserCacheInfo.THIRD_ACCOUNT_BOOK_PAY = intent.getStringExtra("THIRD_ACCOUNT_BOOK_PAY");
         UserCacheInfo.FORTH_ACCOUNT_BOOK_TITLE = intent.getStringExtra("FORTH_ACCOUNT_BOOK_TITLE");
-        UserCacheInfo.FORTH_ACCOUNT_BOOK_PAY = intent.getStringExtra("FORTH_ACCOUNT_BOOK_CASH");
+        UserCacheInfo.FORTH_ACCOUNT_BOOK_PAY = intent.getStringExtra("FORTH_ACCOUNT_BOOK_PAY");
 
         viewPager = findViewById(R.id.view_pager);
         bottomNavigationView = findViewById(R.id.bottom_navigation);
@@ -71,10 +71,26 @@ public class MainActivity extends AppCompatActivity {
                     case 0:
                         textView = (TextView)findViewById(R.id.fragmane_NICKNAME);
                         textView.setText(UserCacheInfo.NICK_NAME);
-                        first_account_book_title = (TextView)findViewById(R.id.first_account_book_pay);
-                        first_account_book_title.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_PAY);
-                        first_account_book_pay = (TextView)findViewById(R.id.first_account_book_title);
-                        first_account_book_pay.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_TITLE);
+                        first_account_book_title = (TextView)findViewById(R.id.first_account_book_title);
+                        first_account_book_title.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_TITLE);
+                        first_account_book_pay = (TextView)findViewById(R.id.first_account_book_pay);
+                        first_account_book_pay.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_PAY);
+
+                        second_account_book_title = (TextView)findViewById(R.id.second_account_book_title);
+                        second_account_book_title.setText(UserCacheInfo.SECOND_ACCOUNT_BOOK_TITLE);
+                        second_account_book_pay = (TextView)findViewById(R.id.second_account_book_pay);
+                        second_account_book_pay.setText(UserCacheInfo.SECOND_ACCOUNT_BOOK_PAY);
+
+                        third_account_book_title = (TextView)findViewById(R.id.third_account_book_title);
+                        third_account_book_title.setText(UserCacheInfo.THIRD_ACCOUNT_BOOK_TITLE);
+                        third_account_book_pay = (TextView)findViewById(R.id.third_account_book_pay);
+                        third_account_book_pay.setText(UserCacheInfo.THIRD_ACCOUNT_BOOK_PAY);
+
+                        forth_account_book_title = (TextView)findViewById(R.id.forth_account_book_title);
+                        forth_account_book_title.setText(UserCacheInfo.FORTH_ACCOUNT_BOOK_TITLE);
+                        forth_account_book_pay = (TextView)findViewById(R.id.forth_account_book_pay);
+                        forth_account_book_pay.setText(UserCacheInfo.FORTH_ACCOUNT_BOOK_PAY);
+
                         viewPager.setCurrentItem(0);
                         bottomNavigationView.getMenu().findItem(R.id.menu_main).setChecked(true);
                        break;
