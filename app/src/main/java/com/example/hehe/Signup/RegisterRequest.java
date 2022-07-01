@@ -25,12 +25,6 @@ public class RegisterRequest extends StringRequest {
         map.put("PASSWD", passwd);
         map.put("NICK_NAME", nickname);
 
-        if(!android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches())
-        {
-            Toast.makeText(RegisterRequest.this,"이메일 형식이 아닙니다", Toast.LENGTH_SHORT).show();
-            dialog.dismiss();
-            return;
-        }
 
 
     }
