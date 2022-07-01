@@ -189,7 +189,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/first_account_book_cash"
+        android:id="@+id/first_account_book_pay"
         android:layout_width="159dp"
         android:layout_height="46dp"
         android:layout_alignParentStart="true"
@@ -199,29 +199,6 @@
         android:hint="000.000.000."
         android:textSize="25dp"
         android:textStyle="bold" />
-    <!--<TextView
-        android:id="@+id/second_account_book_title"
-        android:layout_width="159dp"
-        android:layout_height="46dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="169dp"
-        android:layout_marginTop="177dp"
-        android:hint="000.000.000."
-        android:textSize="25dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/second_account_book_cash"
-        android:layout_width="159dp"
-        android:layout_height="46dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="169dp"
-        android:layout_marginTop="207dp"
-        android:hint="000.000.000."
-        android:textSize="25dp"
-        android:textStyle="bold" />-->
 
 
 
