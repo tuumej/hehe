@@ -12,6 +12,7 @@ import com.example.hehe.Signup.LoginActivity;
 public class FindPasswdActivity extends AppCompatActivity {
 
     Button new_pw_btn;
+    Button find_id_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
