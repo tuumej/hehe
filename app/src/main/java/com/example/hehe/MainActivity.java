@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
         UserCacheInfo.E_MAIL = intent.getStringExtra("E_MAIL");
         UserCacheInfo.NICK_NAME = intent.getStringExtra("NICK_NAME");
         UserCacheInfo.USER_KEY = intent.getStringExtra("USER_KEY");
-        UserCacheInfo.TOTAL_CASH = intent.getStringExtra("TOTAL_CASH");
+        UserCacheInfo.FIRST_ACCOUNT_BOOK_TITLE = intent.getStringExtra("FIRST_ACCOUNT_BOOK_TITLE");
+        UserCacheInfo.FIRST_ACCOUNT_BOOK_CASH = intent.getStringExtra("FIRST_ACCOUNT_BOOK_CASH");
         //UserCacheInfo.NICK_NAME = "AMDIN";
        //UserCacheInfo.E_MAIL = "AMDIN";
 
@@ -61,10 +62,11 @@ public class MainActivity extends AppCompatActivity {
                 switch (position){
                     case 0:
                         textView = (TextView)findViewById(R.id.fragmane_NICKNAME);
-                        //System.out.println(UserCacheInfo.NICK_NAME);
                         textView.setText(UserCacheInfo.NICK_NAME);
-                        textView2 = (TextView)findViewById(R.id.first_cash_total);
-                        textView2.setText(UserCacheInfo.TOTAL_CASH);
+                        textView2 = (TextView)findViewById(R.id.first_account_book_cash);
+                        textView2.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_CASH);
+                        textView3 = (TextView)findViewById(R.id.first_account_book_title);
+                        textView3.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_TITLE);
                         viewPager.setCurrentItem(0);
                         bottomNavigationView.getMenu().findItem(R.id.menu_main).setChecked(true);
                        break;
@@ -99,8 +101,8 @@ public class MainActivity extends AppCompatActivity {
                         textView = (TextView)findViewById(R.id.fragmane_NICKNAME);
                         //System.out.println(UserCacheInfo.NICK_NAME);
                         textView.setText(UserCacheInfo.NICK_NAME);
-                        textView2 = (TextView)findViewById(R.id.first_cash_total);
-                        textView2.setText(UserCacheInfo.TOTAL_CASH);
+                        textView2 = (TextView)findViewById(R.id.first_account_book_cash);
+                        textView2.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_CASH);
                         viewPager.setCurrentItem(0);
                         break;
 

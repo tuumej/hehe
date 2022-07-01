@@ -42,20 +42,18 @@
         android:textSize="12.5sp"
         android:textStyle="normal" />
 
-    <Button
-        android:id="@+id/btn_register"
+    <TextView
+        android:id="@+id/et_Nickname_warn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="437dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginBottom="356dp"
-        android:background="@drawable/round"
-        android:text="회원가입"
-        android:textStyle="bold" />
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="228dp"
+        android:text="! 닉네임은 최대 8글자 입니다."
+        android:visibility="invisible"
+        android:textColor="#fd9595"
+        android:textSize="10dp" />
 
     <EditText
         android:id="@+id/et_Email"
@@ -76,6 +74,19 @@
         android:textColor="#a6a6a6"
         android:textSize="12.5sp" />
 
+    <TextView
+        android:id="@+id/et_Email_warn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="295dp"
+        android:text="! 올바르지 않은 이메일입니다."
+        android:visibility="invisible"
+        android:textColor="#fd9595"
+        android:textSize="10dp" />
+
     <EditText
         android:id="@+id/et_Passwd"
         android:layout_width="wrap_content"
@@ -83,9 +94,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="294dp"
-        android:layout_marginEnd="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="307dp"
+        android:layout_marginEnd="34dp"
         android:background="@drawable/round_white"
         android:ems="10"
         android:hint="   비밀번호(8자리이상/영어,숫자,특수문자)"
@@ -94,6 +105,19 @@
         android:textColor="#a6a6a6"
         android:textSize="12.5sp" />
 
+    <TextView
+        android:id="@+id/et_Passwd_warn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="345dp"
+        android:text="! 비밀번호는 8자리 이상, 영어, 숫자, 특수문자를 포함해야합니다."
+        android:visibility="invisible"
+        android:textColor="#fd9595"
+        android:textSize="10dp" />
+
     <EditText
         android:id="@+id/et_Passwd2"
         android:layout_width="wrap_content"
@@ -101,9 +125,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="338dp"
-        android:layout_marginEnd="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginEnd="34dp"
         android:background="@drawable/round_white"
         android:ems="10"
         android:hint="   비밀번호 재입력"
@@ -113,41 +137,58 @@
         android:textSize="12.5sp" />
 
     <TextView
+        android:id="@+id/et_Passwd2_warn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="415dp"
+        android:text="! 비밀번호 재입력이 올바르지 않습니다."
+        android:visibility="invisible"
+        android:textColor="#fd9595"
+        android:textSize="10dp" />
+
+    <CheckBox
+        android:id="@+id/privacy_check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="436dp"
+        android:text="개인정보 수집 및 이용 동의"
+        android:textSize="12dp" />
+
+    <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="32dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="206dp"
-        android:layout_marginTop="393dp"
+        android:layout_marginStart="207dp"
+        android:layout_marginTop="436dp"
         android:gravity="center"
         android:text="(필수)"
         android:textColor="#fd9595"
         android:textSize="12dp"
         android:textStyle="bold" />
 
-    <CheckBox
-        android:id="@+id/checkBox2"
+    <Button
+        android:id="@+id/btn_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="393dp"
-        android:text="개인정보 수집 및 이용 동의"
-        android:textSize="12dp" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="228dp"
-        android:text="! 닉네임은 최대 8글자 입니다."
-        android:textColor="#fd9595"
-        android:textSize="10dp" />
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="356dp"
+        android:background="@drawable/round"
+        android:text="회원가입"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>
