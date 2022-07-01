@@ -27,7 +27,6 @@
         <activity android:name=".Sum.SumActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".FindPasswdActivity" />
-        <activity android:name=".LogFireActivity" />
         <activity android:name=".SettingPage.CheckPasswdActivity" />
         <activity android:name=".SettingPage.ChangePasswdActivity" />
         <activity android:name=".SettingPage.LogoutActivity" />

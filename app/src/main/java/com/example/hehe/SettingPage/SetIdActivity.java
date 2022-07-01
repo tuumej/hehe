@@ -3,12 +3,15 @@ package com.example.hehe.SettingPage;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.hehe.MainActivity;
@@ -17,13 +20,15 @@ import com.example.hehe.R;
 public class SetIdActivity extends AppCompatActivity implements View.OnClickListener{
 
     Button change_btn;
+    Dialog dialog01;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_set_id);
-
         findViewById(R.id.button).setOnClickListener(this);
+
         change_btn = findViewById(R.id.change_id_btn);
         change_btn.setOnClickListener(new View.OnClickListener() {
             @Override

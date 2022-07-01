@@ -38,13 +38,13 @@ public class OnboardingActivity extends AppCompatActivity {
 
         PaperOnboardingPage scr1 = new PaperOnboardingPage("우리 금수저는 아니잖아",
                 "계획을 세워야해",
-                Color.parseColor("#00ff0000"), R.drawable.meal_pay, R.drawable.ring1);
+                Color.parseColor("#00ff0000"), R.drawable.onebd, R.drawable.ring1);
         PaperOnboardingPage scr2 = new PaperOnboardingPage("월급날 아직 20일 남았다",
                 "퍼가요~",
-                Color.parseColor("#00ff0000"), R.drawable.home_pay, R.drawable.ring2);
+                Color.parseColor("#00ff0000"), R.drawable.onboarding2, R.drawable.ring2);
         PaperOnboardingPage scr3 = new PaperOnboardingPage("내돈내산?",
                 "멈.춰",
-                Color.parseColor("#00ff0000"), R.drawable.onboarding3, R.drawable.ring3);
+                Color.parseColor("#00ff0000"), R.drawable.onboarding1, R.drawable.ring3);
 
         ArrayList<PaperOnboardingPage> elements = new ArrayList<>();
         elements.add(scr1);

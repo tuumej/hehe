@@ -1,21 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SettingPage.BellActivity">
 
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="357dp"
-        android:layout_height="41dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="79dp"
-        android:layout_marginEnd="23dp"
-        android:text="알림 설정" />
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="소리설정"
+        app:layout_constraintBottom_toTopOf="@+id/radio_group"
+        app:layout_constraintStart_toStartOf="@+id/radio_group" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="193dp"
+        android:layout_height="207dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348">
+
+        <RadioButton
+            android:id="@+id/radio_button_spring"
+            android:layout_width="149dp"
+            android:layout_height="51dp"
+            android:layout_marginEnd="10dp"
+            android:text="소리 1" />
+
+        <RadioButton
+            android:id="@+id/radio_button_summer"
+            android:layout_width="149dp"
+            android:layout_height="51dp"
+            android:layout_marginEnd="10dp"
+            android:text="소리 2" />
+
+        <RadioButton
+            android:id="@+id/radio_button_fall"
+            android:layout_width="149dp"
+            android:layout_height="51dp"
+            android:layout_marginEnd="10dp"
+            android:text="소리 3" />
+
+
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="357dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="94dp"
+            android:layout_marginEnd="35dp"
+            android:text="   알림 소리"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="82dp" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
