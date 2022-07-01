@@ -176,6 +176,7 @@
         android:layout_marginStart="26dp"
         android:layout_marginTop="577dp"
         android:background="@drawable/add_set" />
+
     <TextView
         android:id="@+id/first_account_book_title"
         android:layout_width="159dp"
@@ -184,6 +185,42 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="169dp"
         android:layout_marginTop="177dp"
+        android:hint="000.000.000."
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/first_account_book_title2"
+        android:layout_width="159dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="313dp"
+        android:hint="000.000.000."
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/first_account_book_title3"
+        android:layout_width="159dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="451dp"
+        android:hint="000.000.000."
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/first_account_book_title4"
+        android:layout_width="159dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="585dp"
         android:hint="000.000.000."
         android:textSize="25dp"
         android:textStyle="bold" />
@@ -200,7 +237,41 @@
         android:textSize="25dp"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/first_account_book_pay2"
+        android:layout_width="159dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="349dp"
+        android:hint="000.000.000."
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/first_account_book_pay3"
+        android:layout_width="159dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="485dp"
+        android:hint="000.000.000."
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/first_account_book_pay4"
+        android:layout_width="159dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="617dp"
+        android:hint="000.000.000."
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>
