@@ -57,7 +57,8 @@ public class LoginActivity extends AppCompatActivity {
                             Boolean success = jsonObject.getBoolean("success");
                             String E_MAIL = jsonObject.getString("E_MAIL");
                             String NICK_NAME = jsonObject.getString("NICK_NAME");
-                            String TOTAL_CASH = jsonObject.getString("TOTAL_CASH");
+                            String FIRST_ACCOUNT_BOOK_TITLE = jsonObject.getString("FIRST_ACCOUNT_BOOK_TITLE");
+                            String FIRST_ACCOUNT_BOOK_CASH = jsonObject.getString("FIRST_ACCOUNT_BOOK_CASH");
                             String USER_KEY = jsonObject.getString("USER_KEY");
 
                             if(success) { // 로그인 성공 시
@@ -66,7 +67,8 @@ public class LoginActivity extends AppCompatActivity {
                                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                 intent.putExtra("E_MAIL",E_MAIL);
                                 intent.putExtra("NICK_NAME",NICK_NAME);
-                                intent.putExtra("TOTAL_CASH",TOTAL_CASH);
+                                intent.putExtra("FIRST_ACCOUNT_BOOK_TITLE",FIRST_ACCOUNT_BOOK_TITLE);
+                                intent.putExtra("FIRST_ACCOUNT_BOOK_CASH",FIRST_ACCOUNT_BOOK_CASH);
                                 intent.putExtra("USER_KEY",USER_KEY);
 
                                 startActivity(intent);
