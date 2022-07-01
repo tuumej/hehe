@@ -28,7 +28,11 @@ public class MainActivity extends AppCompatActivity {
 
     private ViewPager viewPager;
     private BottomNavigationView bottomNavigationView;
-    private TextView textView, textView1,textView2,textView3,textView4;
+    private TextView textView;
+    private TextView first_account_book_title, first_account_book_pay
+                   , second_account_book_title, second_account_book_pay
+                   , third_account_book_title, third_account_book_pay
+                   , forth_account_book_title, forth_account_book_pay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,10 +67,10 @@ public class MainActivity extends AppCompatActivity {
                     case 0:
                         textView = (TextView)findViewById(R.id.fragmane_NICKNAME);
                         textView.setText(UserCacheInfo.NICK_NAME);
-                        textView2 = (TextView)findViewById(R.id.first_account_book_cash);
-                        textView2.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_CASH);
-                        textView3 = (TextView)findViewById(R.id.first_account_book_title);
-                        textView3.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_TITLE);
+                        first_account_book_title = (TextView)findViewById(R.id.first_account_book_pay);
+                        first_account_book_title.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_CASH);
+                        first_account_book_pay = (TextView)findViewById(R.id.first_account_book_title);
+                        first_account_book_pay.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_TITLE);
                         viewPager.setCurrentItem(0);
                         bottomNavigationView.getMenu().findItem(R.id.menu_main).setChecked(true);
                        break;
@@ -101,8 +105,8 @@ public class MainActivity extends AppCompatActivity {
                         textView = (TextView)findViewById(R.id.fragmane_NICKNAME);
                         //System.out.println(UserCacheInfo.NICK_NAME);
                         textView.setText(UserCacheInfo.NICK_NAME);
-                        textView2 = (TextView)findViewById(R.id.first_account_book_cash);
-                        textView2.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_CASH);
+                        first_account_book_pay = (TextView)findViewById(R.id.first_account_book_pay);
+                        first_account_book_pay.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_CASH);
                         viewPager.setCurrentItem(0);
                         break;
 
