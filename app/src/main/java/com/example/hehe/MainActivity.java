@@ -44,9 +44,13 @@ public class MainActivity extends AppCompatActivity {
         UserCacheInfo.NICK_NAME = intent.getStringExtra("NICK_NAME");
         UserCacheInfo.USER_KEY = intent.getStringExtra("USER_KEY");
         UserCacheInfo.FIRST_ACCOUNT_BOOK_TITLE = intent.getStringExtra("FIRST_ACCOUNT_BOOK_TITLE");
-        UserCacheInfo.FIRST_ACCOUNT_BOOK_CASH = intent.getStringExtra("FIRST_ACCOUNT_BOOK_CASH");
-        //UserCacheInfo.NICK_NAME = "AMDIN";
-       //UserCacheInfo.E_MAIL = "AMDIN";
+        UserCacheInfo.FIRST_ACCOUNT_BOOK_PAY = intent.getStringExtra("FIRST_ACCOUNT_BOOK_CASH");
+        UserCacheInfo.SECOND_ACCOUNT_BOOK_TITLE = intent.getStringExtra("SECOND_ACCOUNT_BOOK_TITLE");
+        UserCacheInfo.SECOND_ACCOUNT_BOOK_PAY = intent.getStringExtra("SECOND_ACCOUNT_BOOK_CASH");
+        UserCacheInfo.THIRD_ACCOUNT_BOOK_TITLE = intent.getStringExtra("THIRD_ACCOUNT_BOOK_TITLE");
+        UserCacheInfo.THIRD_ACCOUNT_BOOK_PAY = intent.getStringExtra("THIRD_ACCOUNT_BOOK_CASH");
+        UserCacheInfo.FORTH_ACCOUNT_BOOK_TITLE = intent.getStringExtra("FORTH_ACCOUNT_BOOK_TITLE");
+        UserCacheInfo.FORTH_ACCOUNT_BOOK_PAY = intent.getStringExtra("FORTH_ACCOUNT_BOOK_CASH");
 
         viewPager = findViewById(R.id.view_pager);
         bottomNavigationView = findViewById(R.id.bottom_navigation);
@@ -68,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                         textView = (TextView)findViewById(R.id.fragmane_NICKNAME);
                         textView.setText(UserCacheInfo.NICK_NAME);
                         first_account_book_title = (TextView)findViewById(R.id.first_account_book_pay);
-                        first_account_book_title.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_CASH);
+                        first_account_book_title.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_PAY);
                         first_account_book_pay = (TextView)findViewById(R.id.first_account_book_title);
                         first_account_book_pay.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_TITLE);
                         viewPager.setCurrentItem(0);
@@ -106,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                         //System.out.println(UserCacheInfo.NICK_NAME);
                         textView.setText(UserCacheInfo.NICK_NAME);
                         first_account_book_pay = (TextView)findViewById(R.id.first_account_book_pay);
-                        first_account_book_pay.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_CASH);
+                        first_account_book_pay.setText(UserCacheInfo.FIRST_ACCOUNT_BOOK_PAY);
                         viewPager.setCurrentItem(0);
                         break;
 
