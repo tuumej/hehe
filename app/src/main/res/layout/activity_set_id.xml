@@ -37,6 +37,22 @@
         android:textStyle="normal" />
 
     <TextView
+        android:id="@+id/manage_id"
+        android:layout_width="210dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="28dp"
+        android:gravity="center_vertical"
+        android:text="tuumej"
+        android:textColor="#454545"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="42dp"
@@ -48,6 +64,22 @@
         android:layout_marginEnd="289dp"
         android:gravity="center_vertical"
         android:text="     키값"
+        android:textColor="#454545"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/manage_key"
+        android:layout_width="214dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="25dp"
+        android:gravity="center_vertical"
+        android:text="WZZu7OtMvj"
         android:textColor="#454545"
         android:textSize="15sp"
         android:textStyle="normal" />

@@ -1,4 +1,4 @@
-package com.example.hehe.fragment;
+    package com.example.hehe.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -39,6 +39,8 @@ public class SetFragment extends Fragment {
            @Override
            public void onClick(View v){
                Intent intent = new Intent(getActivity(), SetIdActivity.class);
+               intent.putExtra("USER_KEY","1111");
+               System.out.println("11111");
                startActivity(intent);
            }
 
