@@ -3,12 +3,16 @@ package com.example.hehe.SettingPage;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hehe.MainActivity;
@@ -17,6 +21,7 @@ import com.example.hehe.R;
 public class SetIdActivity extends AppCompatActivity implements View.OnClickListener{
 
     Button change_btn;
+    TextView manage_key;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +37,25 @@ public class SetIdActivity extends AppCompatActivity implements View.OnClickList
                 startActivity(intent);
             }
         });
+
+        // key 선택 시, 값 클립보드에 복사 기능 (manage_key)
+        manage_key = findViewById(R.id.manage_key);
+
+        manage_key.setOnTouchListener(new View.OnTouchListener(){ //터치 이벤트 리스너 등록(누를때)
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if(event.getAction()==MotionEvent.ACTION_DOWN){ //눌렀을 때 동작
+                    //클립보드 사용 코드
+                    ClipboardManager clipboardManager = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+                    ClipData clipData = ClipData.newPlainText("key",manage_key.getText()); //클립보드에 ID라는 이름표로 id 값을 복사하여 저장
+                    Toast.makeText(getApplicationContext(), manage_key.getText()+" 값이 클립보드에 복사되었습니다.",Toast.LENGTH_LONG).show();
+                    clipboardManager.setPrimaryClip(clipData);
+                }
+                return true;
+            }
+        });
     }
+
 
     public void onClick(View v){
         switch (v.getId()){
